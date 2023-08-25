@@ -1,0 +1,15 @@
+#header{
+    display:flex;
+   
+    text-align: center;
+}
+
+#header>h1{
+    margin:0;
+}
+
+#header-text{
+    text-align: center;
+    width: 100%;
+    
+}
