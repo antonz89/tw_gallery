@@ -9,7 +9,7 @@ const Body =()=>{
         <>
             <SimpleGrid
                 minChildWidth='330px'
-                paddingTop={{base: '5px',lg:'50px' }} 
+                paddingTop={{base: '35px',lg:'50px' }} 
                 >
            
                 <Box 

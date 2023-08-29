@@ -4,8 +4,8 @@ const Footer=()=>{
     return(
         <>
         <footer>
-            <Center marginTop="30px" bgGradient='linear(to-r, lightgray, gray)'>
-               © Tamara Williams 2023
+            <Center marginTop="160px" bgGradient='linear(to-r, lightgray, gray)'>
+               © Tamara Williams Gallery 2023
 
             </Center>
             <Center bgGradient='linear(to-r, green.200, pink.500)'>
