@@ -59,12 +59,14 @@ const Body =()=>{
             <SimpleGrid
                 minChildWidth='330px'
                 paddingTop={{base: '40px',lg:'50px' }} 
+                
                 >
            
                 <Box 
                     align='center'
                     margin='0px' 
-                    paddingTop={{base:"0px",lg:"20px"}}
+                    paddingTop={{base:"30px",lg:"20px"}}
+                    
                     >
                     
                     <Image 
