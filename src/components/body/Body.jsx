@@ -31,7 +31,7 @@ const Body =()=>{
                 </Box>
 
                 <Box
-                    height={{base: '170px',lg: '440px' }}
+                    height={{base: '170px',lg: '430px' }}
                     borderLeftColor={{base: 'white',lg: 'black' }}
                     borderTopColor={{base: 'lightgrey',lg: 'white' }}
                     borderLeftStyle='solid'
@@ -64,7 +64,7 @@ const Body =()=>{
                 <Box 
                     align='center'
                     margin='0px' 
-                    paddingTop={{base:"0px",lg:"30px"}}
+                    paddingTop={{base:"0px",lg:"20px"}}
                     >
                     
                     <Image 
@@ -82,7 +82,7 @@ const Body =()=>{
                 </Box>
 
                 <Box
-                    height={{base: '170px',lg: '400px' }}
+                    height={{base: '170px',lg: '390px' }}
                     borderLeftColor={{base: 'white',lg: 'black' }}
                     borderTopColor={{base: 'lightgrey',lg: 'white' }}
                     borderLeftStyle='solid'

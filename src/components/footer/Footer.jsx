@@ -4,14 +4,14 @@ const Footer=()=>{
     return(
         <>
         <footer>
-            <Center bg="lightgray" marginTop="30px">
+            <Center marginTop="30px" bgGradient='linear(to-r, lightgray, gray)'>
                © Tamara Williams 2023
 
             </Center>
-            <Center bg="lightgray">
+            <Center bgGradient='linear(to-r, green.200, pink.500)'>
                 - All Rights reserved -
             </Center>
-            <Center bg="lightgray">
+            <Center bgGradient='linear(to-r, lightgray, gray)'>
             We Will Find You :)
             </Center>
         </footer>
