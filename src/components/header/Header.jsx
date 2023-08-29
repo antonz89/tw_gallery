@@ -9,7 +9,9 @@ const Header = ()=>{
     return(
         <>
 
-        <Box id="header" padding='15px'>
+        <Box id="header" 
+            padding='15px'
+            marginTop={{base: "20px",lg:"0px"}}>
             <Text fontSize='4xl' as='i' id="header-text" fontFamily="sans-serif">Tamara Williams Gallery</Text>
             {/* <h1 id="header-text">Tamara Williams Gallery</h1> */}
             
