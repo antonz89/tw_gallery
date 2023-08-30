@@ -1,4 +1,5 @@
-import {Center,Box,Text,Input,Textarea} from "@chakra-ui/react"
+import {Center,Box,Text,Input,Textarea,Button} from "@chakra-ui/react"
+import {Popover,PopoverTrigger,PopoverContent,PopoverHeader,PopoverCloseButton} from '@chakra-ui/react'
 
 
 const Contact = ()=>{
@@ -6,7 +7,7 @@ const Contact = ()=>{
     return(
         <>
             <Center
-                marginTop={{base:"70px",lg:"100px"}}>
+                marginTop={{base:"170px",lg:"100px"}}>
                 <Box
                     width={{lg:"500px"}}
                     height={{lg:"200px"}}
@@ -33,9 +34,25 @@ const Contact = ()=>{
                             marginTop={{base:"10px",lg:"10px"}}
                             height={{lg:"200px"}}
                             />
-                        
-                        
-                    
+
+                        <Center>
+
+                            <Popover>
+                                <PopoverTrigger>
+                                    <Button 
+                                    colorScheme='gray'
+                                    marginTop="5px">Send</Button>
+                                </PopoverTrigger>
+
+                                <PopoverContent>
+                                    <PopoverCloseButton />
+                                        <PopoverHeader
+                                        bg="lightblue">Your Message Was Sent</PopoverHeader>
+                               </PopoverContent>
+                            </Popover>
+
+                        </Center>
+
                 </Box>
             </Center>
         </>
