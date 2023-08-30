@@ -7,7 +7,7 @@ const Contact = ()=>{
     return(
         <>
             <Center
-                marginTop={{base:"170px",lg:"100px"}}>
+                marginTop={{base:"150px",lg:"100px"}}>
                 <Box
                     width={{lg:"500px"}}
                     height={{lg:"200px"}}

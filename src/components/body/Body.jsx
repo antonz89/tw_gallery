@@ -14,7 +14,8 @@ const Body =()=>{
         <>
             <SimpleGrid
                 minChildWidth='330px'
-                paddingTop={{base: '35px',lg:'50px' }} 
+                paddingTop={{base: '0px',lg:'0px' }} 
+                marginTop={{base: '80px', lg:'50px' }} 
                 >
            
                 <Box 
@@ -49,9 +50,8 @@ const Body =()=>{
                 >
                     <Text as='i'><b>"Beautiful Title"</b></Text><br/>
                     <br/>
-                    <Text>Artist: Tamara Williams</Text>
-                    <br/>
-                    <Text>Dallas,USA</Text>
+                    
+                    <Text>Description: this line is for an art description</Text>
                     <br/>
                     <Text>$450</Text>
                     <br/>
@@ -67,7 +67,7 @@ const Body =()=>{
                 minChildWidth='330px'
                 paddingTop={{base: '0px',lg:'0px' }} 
                 // backgroundColor="lightblue"
-                marginTop={{base: '100px', lg:'50px' }} 
+                marginTop={{base: '60px', lg:'50px' }} 
                 
                 >
            
@@ -106,9 +106,8 @@ const Body =()=>{
                         
                     <Text as='i'><b>"Beautiful Title"</b></Text><br/>
                     <br/>
-                    <Text>Artist: Tamara Williams</Text>
-                    <br/>
-                    <Text>Dallas,USA</Text>
+                    
+                    <Text>Description: this line is for an art description</Text>
                     <br/>
                     <Text>$450</Text>
                     <br/>
@@ -123,7 +122,7 @@ const Body =()=>{
             <SimpleGrid
                 minChildWidth='330px'
                 paddingTop={{base: '0px',lg:'0px' }} 
-                marginTop={{base: '130px',lg:'50px'}} 
+                marginTop={{base: '100px',lg:'50px'}} 
                 // backgroundColor="lightgray"
                 >
            
@@ -157,13 +156,12 @@ const Body =()=>{
                     marginTop={{base:"10px"}}
                     
                 >
-                    <Text as='i'><b>"Colgada De Ver Corazon"</b></Text><br/>
+                    <Text as='i'><b>"Beautiful Title"</b></Text><br/>
                     <br/>
-                    <Text>Artist: Unknown</Text>
+                    
+                    <Text>Description: this line is for an art description</Text>
                     <br/>
-                    <Text>Quintana Roo, Mexico</Text>
-                    <br/>
-                    <Text>$350</Text>
+                    <Text>$450</Text>
                     <br/>
                     <Icon as={AiOutlineHeart}/>
 
@@ -175,7 +173,7 @@ const Body =()=>{
             <SimpleGrid
                 minChildWidth='330px'
                 paddingTop={{base: '0px',lg:'0px' }}
-                marginTop={{base:'130px',lg:'50px'}}   
+                marginTop={{base:'90px',lg:'50px'}}   
                 >
            
                 <Box 
@@ -210,11 +208,10 @@ const Body =()=>{
                 >
                     <Text as='i'><b>"Beautiful Title"</b></Text><br/>
                     <br/>
-                    <Text>Artist: Julia Panchenko</Text>
+                    
+                    <Text>Description: this line is for an art description</Text>
                     <br/>
-                    <Text>Santa Maria Capua Vetere, Italy</Text>
-                    <br/>
-                    <Text>$300</Text>
+                    <Text>$450</Text>
                     <br/>
                     <Icon as={AiOutlineHeart}/>
 
