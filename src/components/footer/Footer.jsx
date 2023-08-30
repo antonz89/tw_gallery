@@ -4,7 +4,9 @@ const Footer=()=>{
     return(
         <>
         <footer>
-            <Center marginTop="160px" bgGradient='linear(to-r, lightgray, gray)'>
+            <Center 
+                marginTop={{base:"40px",lg:"160px"}} 
+                bgGradient='linear(to-r, lightgray, gray)'>
                © Tamara Williams Gallery 2023
 
             </Center>
